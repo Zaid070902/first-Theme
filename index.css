@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Asul', sans-serif;
+}
+
+.zsec1{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://olbia.wphunters.com/wp-content/uploads/2020/05/2000-vadim_dodon-328f92495269537df3539d069c3c39ce.jpg);
+    height: 400px;
+    /* background-repeat: no-repeat; */
+    background-position: 50% 50%;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+}
+
+.zhead{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+
+}
+
+.znav{
+    display: flex;
+    justify-content: center;
+}
+
+.znavitems{
+    display: flex;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+}
+
+.znavitem{
+    padding: 30px ;
+}
+
+.znavlink{
+    color: #333;
+    text-decoration: none;
+}
+
+.zcards{
+    display: flex;
+    justify-content: center;
+}
+
+.zcard{
+    /* padding: 20px; */
+    background-color: white;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: black 0 5px 10px; */
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.zcardhead{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* font-size: 20px; */
+    font-weight: lighter;
+    color: #222;
+}
+
+.zc2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.zimg{
+    height: 200px;
+    width: 200px;
+}
+
+.zcardbtn{
+    margin-top: 20px;
+}
+
+.zbtn{
+    padding: 10px;
+    width: 100px;
+    background: none;
+    border: none;
+    border: 1px solid black;
+}
+
+.zsec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.zcardinfo{
+    color: #333;
+}
+
+.zsec3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.zsechead{
+    display: flex;
+    justify-content: center;
+    color: #333;
+    letter-spacing: 2px;    
+}
+
+.zrow{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    width: 1000px;
+}
+
+.zleft{
+    width: 300px;
+    font-size: 20px;
+    color: #222;
+}
+
+.zright{
+    width: 500px;
+    color: #222;
+}
+.zmid{
+    border-top: 1px #999 solid;
+    border-bottom: 1px #999 solid;
+    padding: 50px;
+}
+
+.zlogo{
+    height: 30px;
+    width: 90px;
+}
